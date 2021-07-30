@@ -16,7 +16,7 @@ work
 #Don't ignore directories
 !*/
 #Don't ignore these files
-!/.gitignore
+!./.gitignore
 !jobs/*/config.xml
 !jobs/**/modules**/config.xml
 
