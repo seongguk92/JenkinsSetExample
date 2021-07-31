@@ -8,74 +8,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-target
-work
-
-#Ignore everything
-*
-#Don't ignore directories
-!*/
-#Don't ignore these files
-!./.gitignore
-!jobs/*/config.xml
-!jobs/**/modules**/config.xml
-
-# IntelliJ project files 
-*.iml
-*.iws
-*.ipr
-.idea
-out
-
-# Eclipse and VSCode project files
-.settings
-.classpath
-.project
-.factorypath
-build
-
-# VSCode workspace file
-*.code-workspace
-
-# vim
-*~
-*.swp
-
-# ctags
-tags
-
-# OS X
-.DS_Store
-
-# mvn versions:set
-pom.xml.versionsBackup
-
-war/images/16x16
-war/images/24x24
-war/images/32x32
-war/images/48x48
-jenkins.war
-RPMS
-SRPMS
-debian/binary
-debian/debian/jenkins
-debian/debian/jenkins.substvars
-debian/debian/files
-debian/build-stamp
-debian/configure-stamp
-*.debhelper
-*.debhelper.log
-jenkins_*.build
-jenkins_*.changes
-*.deb
-*.pkg
-*.zip
-push-build.sh
-war/node_modules/
-war/yarn-error.log
-.java-version
-.checkstyle
-
 # User-specific files
 *.rsuser
 *.suo
@@ -99,6 +31,8 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
+[Bb]in/
+[Oo]bj/
 [Ll]og/
 
 # Visual Studio 2015/2017 cache/options directory
@@ -261,6 +195,7 @@ PublishScripts/
 *.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
@@ -400,6 +335,9 @@ OpenCover/
 # Azure Stream Analytics local run output
 ASALocalRun/
 
+# MSBuild Binary and Structured Log
+*.binlog
+
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
@@ -494,6 +432,7 @@ MigrationBackup/
 # NuGet Packages
 # NuGet Symbol Packages
 # The packages folder can be ignored because of Package Restore
+# except build/, which is used as an MSBuild target.
 # Uncomment if necessary however generally it will be regenerated when needed
 # NuGet v3's project.json files produces more ignorable files
 
@@ -561,6 +500,8 @@ MigrationBackup/
 
 # Azure Stream Analytics local run output
 
+# MSBuild Binary and Structured Log
+
 # NVidia Nsight GPU debugger configuration file
 
 # MFractors (Xamarin productivity tool) working folder
@@ -572,6 +513,6 @@ MigrationBackup/
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 
 # End of https://www.gitignore.io/api/svn,csharp,visualstudio
-Ã—
+¡¿
 Drag and Drop
 The image will be downloaded
