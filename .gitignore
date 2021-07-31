@@ -263,7 +263,6 @@ PublishScripts/
 *.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
@@ -403,9 +402,6 @@ OpenCover/
 # Azure Stream Analytics local run output
 ASALocalRun/
 
-# MSBuild Binary and Structured Log
-*.binlog
-
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
@@ -500,7 +496,6 @@ MigrationBackup/
 # NuGet Packages
 # NuGet Symbol Packages
 # The packages folder can be ignored because of Package Restore
-# except build/, which is used as an MSBuild target.
 # Uncomment if necessary however generally it will be regenerated when needed
 # NuGet v3's project.json files produces more ignorable files
 
@@ -567,8 +562,6 @@ MigrationBackup/
 # OpenCover UI analysis results
 
 # Azure Stream Analytics local run output
-
-# MSBuild Binary and Structured Log
 
 # NVidia Nsight GPU debugger configuration file
 
